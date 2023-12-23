@@ -1,0 +1,5 @@
+pack.name=Damage Query RP
+pack.description=By Da4ThEdge
+
+item.spawn_egg.entity.edge:training_target.name=Training Target
+entity.edge:training_target.name=Training Target

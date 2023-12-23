@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "edge:training_target",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/training_target"
+			},
+			"geometry": {
+				"default": "geometry.training_target"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture": "training_target"
+			},
+			"animations": {
+				"hurt": "animation.training_target.hurt"
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "edge:training_target",
+			"is_experimental": false,
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:health": {
+				"value": 100000
+			},
+			"minecraft:physics": {},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 2.3
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": { "component_groups": [ "despawn" ] }
+			}
+		}
+	}
+}

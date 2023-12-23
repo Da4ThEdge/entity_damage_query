@@ -1,0 +1,11 @@
+{
+	"resource_pack_name": "rl",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"training_target": {
+			"textures": [
+				"textures/items/training_target"
+			]
+		}
+	}
+}
