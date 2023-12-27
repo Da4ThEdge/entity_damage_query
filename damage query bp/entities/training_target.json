@@ -23,6 +23,10 @@
 			},
 			"minecraft:knockback_resistance": {
 				"value": 1
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": true,
+				"always_show": true
 			}
 		},
 		"events": {
