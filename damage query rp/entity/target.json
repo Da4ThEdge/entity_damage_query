@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/training_target"
+				"default": "textures/entity/training_target"
 			},
 			"geometry": {
 				"default": "geometry.training_target"
