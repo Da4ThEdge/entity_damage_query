@@ -2,10 +2,10 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "edge:dmgpoint_particle",
+			"identifier": "edge:dmgpoint_particle_right1",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/particle/dmgpoint"
+				"texture": "textures/particle/dmgpoint_right1"
 			}
 		},
 		"components": {
@@ -24,13 +24,13 @@
 			"minecraft:particle_initial_speed": 0.5,
 			"minecraft:particle_motion_dynamic": {},
 			"minecraft:particle_appearance_billboard": {
-				"size": ["0.15 - (0.15 * variable.particle_age)", "0.15 - (0.15 * variable.particle_age)"],
+				"size": ["3*(0.15 - (0.15 * variable.particle_age))", "0.15 - (0.15 * variable.particle_age)"],
 				"facing_camera_mode": "lookat_xyz",
 				"uv": {
-					"texture_width": 16,
+					"texture_width": 48,
 					"texture_height": 160,
-					"uv": ["0*16", "v.dmgpoint_middle*16"],
-					"uv_size": [16, 16]
+					"uv": ["0*16", "v.dmgpoint_right1*16"],
+					"uv_size": [48, 16]
 				}
 			},
 			"minecraft:particle_appearance_tinting": {
