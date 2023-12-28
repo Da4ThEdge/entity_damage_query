@@ -1,5 +1,5 @@
 # entity_damage_query
-### A Minecraft Bedrock Edition Addon that uses Scripting API to query and display the exact damage value of any weapons
+### A Minecraft Bedrock Edition Addon that uses Scripting API and Particles to query and display the damage numbers on entities.
 
 <img src="/demo.gif" width="80%" height="80%"/>
 
